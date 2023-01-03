@@ -3,6 +3,11 @@
 body {
     background-color: #E5E5E5;
 }
+.container {
+    margin: 0 auto;
+    padding-bottom: 104px;
+
+}
 .topo {
     width: 414px;
     height: 92px;
@@ -10,8 +15,7 @@ body {
     top: 0;
     left: 0;
     position:fixed;
-    position:absolute;
-
+    box-shadow: 0px 4px 4px #00000040;
 }
 
 h1 {
@@ -81,6 +85,10 @@ h2 {
     overflow-x: scroll;
 }
 
+.opcoes::-webkit-scrollbar {
+    display: none;
+}
+
 .primeira-caixa {
     background-color: #FFFFFF;
     width: 172px;
@@ -106,21 +114,21 @@ h2 {
 }
 
 .primeira-caixa img {
-    padding-left: 14px;
+    padding-left: 12px;
     padding-top: 18px;
-    padding-right: 14px;
+    padding-right: 12px;
 }
 
 .segunda-caixa img {
-    padding-left: 14px;
+    padding-left: 12px;
     padding-top: 18px;
-    padding-right: 14px;
+    padding-right: 12px;
 }
 
 .terceira-caixa img {
-    padding-left: 14px;
+    padding-left: 12px;
     padding-top: 18px;
-    padding-right: 14px;
+    padding-right: 12px;
 }
 
 .textoum {
@@ -142,6 +150,7 @@ h3 {
     height: 39px;
     margin-top: 4px;
     margin-left: 14px;
+    line-height: 17px;
 }
 
 .textodois-menor {
@@ -177,4 +186,40 @@ h5 {
     font-size: 16px;
     color: #000000;
     font-weight: 400;
+}
+
+h6 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.partebaixo {
+    background-color: #FFFFFF;
+    width: 414px;
+    height: 92px;
+    margin-top: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.cinza {
+    background-color: #CBCBCB;
+    width: 364px;
+    height: 61px;
+    border-radius: 50px;
+}
+
+.textobaixo {
+    margin-top: 8px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
 }
