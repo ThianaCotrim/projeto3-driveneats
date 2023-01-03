@@ -1,0 +1,37 @@
+.topo {
+    width: 414px;
+    height: 92px;
+    background-color: #CF2B2B;
+    top: 0;
+    left: 0;
+    position:absolute;
+    box-shadow: (0 30 10 0);
+}
+
+h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 44px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.driven {
+    width: 248px;
+    height: 44px;
+    margin-top: 8px;
+    margin-left: 21px;
+}
+
+.suacomida {
+    width: 226px;
+    height: 17px;
+    margin-top: 5px;
+    margin-left: 21px;
+}
