@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="script.js">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
@@ -154,9 +153,9 @@
             if (opcaoClicadaAnteriormente !== null) {
             opcaoClicadaAnteriormente.classList.remove('selecionado');
             }
-        const botao = document.querySelector(opcaoClicada)
-        console.log (botao);
-        botao.classList.add('selecionado')
+            const botao = document.querySelector(opcaoClicada)
+            console.log (botao);
+            botao.classList.add('selecionado')
         }
 
 
@@ -165,9 +164,9 @@
             if (opcaoClicadaAnteriormente !== null) {
             opcaoClicadaAnteriormente.classList.remove('selecionado');
             }
-        const botao = document.querySelector(opcaoClicada)
-        console.log (botao);
-        botao.classList.add('selecionado')
+            const botao = document.querySelector(opcaoClicada)
+            console.log (botao);
+            botao.classList.add('selecionado')
         }
 
 
@@ -176,10 +175,22 @@
             if (opcaoClicadaAnteriormente !== null) {
             opcaoClicadaAnteriormente.classList.remove('selecionado');
             }
-        const botao = document.querySelector(opcaoClicada)
-        console.log (botao);
-        botao.classList.add('selecionado')
+            const botao = document.querySelector(opcaoClicada)
+            console.log (botao);
+            botao.classList.add('selecionado')
+
+            if (document.querySelectorAll('.selecionado').length ===3) {
+                          
+                const mudar = document.querySelector('.cinza')
+                mudar.innerHTML = "Fechar Pedido"
+                mudar.classList.add('verde');
+                }
         }
+
+
+
+
+
     </script>
 </body>
 </html>

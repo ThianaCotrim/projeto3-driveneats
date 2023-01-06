@@ -109,6 +109,14 @@ h2 {
     display: none;
 }
 
+.opcoes-refri::-webkit-scrollbar {
+    display: none;
+} 
+
+.opcoes-sobremesa::-webkit-scrollbar {
+    display: none;
+}
+
 .primeira-caixa {
     background-color: #FFFFFF;
     width: 172px;
@@ -376,11 +384,23 @@ h6 {
     left: 0;
 }
 
-.cinza {
+.cinza{
     background-color: #CBCBCB;
     width: 364px;
     height: 61px;
     border-radius: 50px;
+}
+
+.verde {
+    background-color: #32B72F;
+    margin-top: 8px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 700;
 }
 
 .textobaixo {
@@ -390,6 +410,17 @@ h6 {
     align-items:center;
 }
 
+.mudado {
+    margin-top: 8px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
 .selecionado {
     border: 3px solid #32B72F;
 }
@@ -397,3 +428,5 @@ h6 {
 .selecionado img {
     opacity: 1;
 }
+
+
