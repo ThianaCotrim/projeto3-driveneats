@@ -75,27 +75,7 @@ h2 {
     color: #333333;
 }
 
-.opcoes {
-    width: 414px;
-    height: 225px;
-    margin-top: 17px;
-
-    display: flex;
-    overflow: hidden;
-    overflow-x: scroll;
-}
-
-.opcoes-refri {
-    width: 414px;
-    height: 225px;
-    margin-top: 17px;
-
-    display: flex;
-    overflow: hidden;
-    overflow-x: scroll;
-}
-
-.opcoes-sobremesa {
+.opcoes, .opcoes-refri, .opcoes-sobremesa {
     width: 414px;
     height: 225px;
     margin-top: 17px;
@@ -117,7 +97,7 @@ h2 {
     display: none;
 }
 
-.primeira-caixa {
+.primeira-caixa, .caixa-dois, .caixa-tres, .caixa-quatro {
     background-color: #FFFFFF;
     width: 172px;
     height: 216px;
@@ -125,31 +105,7 @@ h2 {
     border-radius: 9px;
 }
 
-.caixa-dois {
-    background-color: #FFFFFF;
-    width: 172px;
-    height: 216px;
-    margin-left: 19px;
-    border-radius: 9px;
-}
-
-.caixa-tres {
-    background-color: #FFFFFF;
-    width: 172px;
-    height: 216px;
-    margin-left: 19px;
-    border-radius: 9px;
-}
-
-.caixa-quatro {
-    background-color: #FFFFFF;
-    width: 172px;
-    height: 216px;
-    margin-left: 19px;
-    border-radius: 9px;
-}
-
-.segunda-caixa {
+.segunda-caixa, .caixa-dois-refri, .caixa-tres-refri, .caixa-quatro-refri {
     background-color: #FFFFFF;
     width: 172px;
     height: 202px;
@@ -157,31 +113,7 @@ h2 {
     border-radius: 9px;
 }
 
-.caixa-dois-refri {
-    background-color: #FFFFFF;
-    width: 172px;
-    height: 202px;
-    margin-left: 19px;
-    border-radius: 9px;
-}
-
-.caixa-tres-refri {
-    background-color: #FFFFFF;
-    width: 172px;
-    height: 202px;
-    margin-left: 19px;
-    border-radius: 9px;
-}
-
-.caixa-quatro-refri {
-    background-color: #FFFFFF;
-    width: 172px;
-    height: 202px;
-    margin-left: 19px;
-    border-radius: 9px;
-}
-
-.terceira-caixa {
+.terceira-caixa, .caixa-dois-sobremesa, .caixa-tres-sobremesa, .caixa-quatro-sobremesa {
     background-color: #FFFFFF;
     width: 172px;
     height: 197px;
@@ -189,98 +121,7 @@ h2 {
     border-radius: 9px;
 }
 
-.caixa-dois-sobremesa {
-    background-color: #FFFFFF;
-    width: 172px;
-    height: 197px;
-    margin-left: 19px;
-    border-radius: 9px;
-}
-
-.caixa-tres-sobremesa {
-    background-color: #FFFFFF;
-    width: 172px;
-    height: 197px;
-    margin-left: 19px;
-    border-radius: 9px;
-}
-
-.caixa-quatro-sobremesa {
-    background-color: #FFFFFF;
-    width: 172px;
-    height: 197px;
-    margin-left: 19px;
-    border-radius: 9px;
-}
-
-.primeira-caixa img {
-    padding-left: 12px;
-    padding-top: 18px;
-    padding-right: 12px;
-}
-
-
-.caixa-dois img {
-    padding-left: 12px;
-    padding-top: 18px;
-    padding-right: 12px;
-}
-
-.caixa-tres img {
-    padding-left: 12px;
-    padding-top: 18px;
-    padding-right: 12px;
-}
-
-.caixa-quatro img {
-    padding-left: 12px;
-    padding-top: 18px;
-    padding-right: 12px;
-}
-
-.segunda-caixa img {
-    padding-left: 12px;
-    padding-top: 18px;
-    padding-right: 12px;
-}
-
-.caixa-dois-refri img {
-    padding-left: 12px;
-    padding-top: 18px;
-    padding-right: 12px;
-}
-
-.caixa-tres-refri img {
-    padding-left: 12px;
-    padding-top: 18px;
-    padding-right: 12px;
-}
-
-.caixa-quatro-refri img {
-    padding-left: 12px;
-    padding-top: 18px;
-    padding-right: 12px;
-}
-
-.terceira-caixa img {
-    padding-left: 12px;
-    padding-top: 18px;
-    padding-right: 12px;
-}
-
-.caixa-dois-sobremesa img{
-    padding-left: 12px;
-    padding-top: 18px;
-    padding-right: 12px;
-}
-
-.caixa-tres-sobremesa img{
-    padding-left: 12px;
-    padding-top: 18px;
-    padding-right: 12px;
-}
-
-.caixa-quatro-sobremesa img{
+.primeira-caixa img, .caixa-dois img, .caixa-tres img, .caixa-quatro img, .segunda-caixa img, .caixa-dois-refri img, .caixa-tres-refri img, .caixa-quatro-refri img, .terceira-caixa img, .caixa-dois-sobremesa img, .caixa-tres-sobremesa img, .caixa-quatro-sobremesa img   {
     padding-left: 12px;
     padding-top: 18px;
     padding-right: 12px;
@@ -408,17 +249,6 @@ h6 {
     display: flex;
     justify-content:center;
     align-items:center;
-}
-
-.mudado {
-    margin-top: 8px;
-    display: flex;
-    justify-content:center;
-    align-items:center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    color: #FFFFFF;
-    font-weight: 700;
 }
 
 .selecionado {

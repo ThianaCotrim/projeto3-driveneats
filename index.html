@@ -135,9 +135,9 @@
         </div> <!--fechamento opcoes-->
 
         <div class="partebaixo">
-            <div class="cinza">
+            <div onclick="whatsapp()" class="cinza">
                 <div class="textobaixo">
-                    <h6>
+                    <h6> 
                         Selecione os 3 itens <br>
                         para fechar o pedido
                     </h6>
@@ -146,51 +146,8 @@
         </div> <!--fechamento partebaixo-->
     </div> <!--fechamento container-->
 
-    <script>
-        
-        function selecionarOpcao(opcaoClicada) {
-            const opcaoClicadaAnteriormente = document.querySelector('.opcoes .selecionado');
-            if (opcaoClicadaAnteriormente !== null) {
-            opcaoClicadaAnteriormente.classList.remove('selecionado');
-            }
-            const botao = document.querySelector(opcaoClicada)
-            console.log (botao);
-            botao.classList.add('selecionado')
-        }
+    
 
-
-        function selecionarOpcaoRefri(opcaoClicada) {
-            const opcaoClicadaAnteriormente = document.querySelector('.opcoes-refri .selecionado');
-            if (opcaoClicadaAnteriormente !== null) {
-            opcaoClicadaAnteriormente.classList.remove('selecionado');
-            }
-            const botao = document.querySelector(opcaoClicada)
-            console.log (botao);
-            botao.classList.add('selecionado')
-        }
-
-
-        function selecionarOpcaoSobre(opcaoClicada) {
-            const opcaoClicadaAnteriormente = document.querySelector('.opcoes-sobremesa .selecionado');
-            if (opcaoClicadaAnteriormente !== null) {
-            opcaoClicadaAnteriormente.classList.remove('selecionado');
-            }
-            const botao = document.querySelector(opcaoClicada)
-            console.log (botao);
-            botao.classList.add('selecionado')
-
-            if (document.querySelectorAll('.selecionado').length ===3) {
-                          
-                const mudar = document.querySelector('.cinza')
-                mudar.innerHTML = "Fechar Pedido"
-                mudar.classList.add('verde');
-                }
-        }
-
-
-
-
-
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
