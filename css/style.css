@@ -259,4 +259,9 @@ h6 {
     opacity: 1;
 }
 
+.principal{
+    width: 144px;
+    height: 85px;
+    border-radius: 15px;
+}
 
