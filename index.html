@@ -40,7 +40,7 @@
 
     <div data-test="dish" onclick="selecionarOpcao('.caixa-dois')" class="caixa-dois">
         <img src="./img/frango_yin_yang.png" />
-        <div class="textoum"><h3>Frango Yin Yang</h3> </div> <!--fechamento textoum-->
+        <div class="textoum"><h3>carne assada</h3> </div> <!--fechamento textoum-->
         <div class="textodois"><h4>Um pouco de batata,<br>
             um pouco de salada</h4></div> <!--fechamento textodois-->
         <div class="textotres"><h5>R$ 14,90</h5><img src="./img/Vector.png" /></div> <!--fechamento textotres-->
@@ -48,7 +48,7 @@
 
     <div data-test="dish" onclick="selecionarOpcao('.caixa-tres')" class="caixa-tres">
         <img src="./img/frango_yin_yang.png" />
-        <div class="textoum"><h3>Frango Yin Yang</h3> </div> <!--fechamento textoum-->
+        <div class="textoum"><h3>Frango</h3> </div> <!--fechamento textoum-->
         <div class="textodois"><h4>Um pouco de batata,<br>
             um pouco de salada</h4></div> <!--fechamento textodois-->
         <div class="textotres"><h5>R$ 14,90</h5><img src="./img/Vector.png" /></div> <!--fechamento textotres-->
@@ -135,16 +135,18 @@
         </div> <!--fechamento opcoes-->
 
         <div class="partebaixo">
-            <div data-test="order-btn" onclick="whatsapp()" class="cinza">
+            <button data-test="order-btn" disabled onclick="whatsapp()" class="cinza">
                 <div class="textobaixo">
                     <h6> 
                         Selecione os 3 itens <br>
                         para fechar o pedido
                     </h6>
                 </div> <!--fechamento texto baixo-->
-            </div> <!--fechamento div cinza-->
+            </button> <!--fechamento div cinza-->
         </div> <!--fechamento partebaixo-->
     </div> <!--fechamento container-->
+
+
     <script src="script.js"></script>
 </body>
 </html>

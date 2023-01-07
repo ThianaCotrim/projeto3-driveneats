@@ -230,6 +230,7 @@ h6 {
     width: 364px;
     height: 61px;
     border-radius: 50px;
+    border:none;
 }
 
 .verde {
@@ -245,7 +246,6 @@ h6 {
 }
 
 .textobaixo {
-    margin-top: 8px;
     display: flex;
     justify-content:center;
     align-items:center;
