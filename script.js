@@ -8,6 +8,11 @@ let valorPrato = "";
 let valorBebida = "";
 let valorSobremesa = "";
 
+let endereco = "";
+let nome = "";
+
+
+
 function selecionarOpcao(opcaoClicada) {
     const opcaoClicadaAnteriormente = document.querySelector('.opcoes .selecionado');
     if (opcaoClicadaAnteriormente !== null) {
@@ -52,7 +57,12 @@ function selecionarOpcaoSobre(opcaoClicada) {
 
 }
 
+
+
 function whatsapp() {
+
+    let nome = prompt ("Qual o eu nome?");
+    let endereco = prompt ("Qual o seu endereço?");
 
     const total = (valorPrato + valorBebida + valorSobremesa).toFixed (2);
     
@@ -60,8 +70,12 @@ function whatsapp() {
 - Prato: ${nomePrato}
 - Bebida: ${nomeBebida}
 - Sobremesa: ${nomeSobremesa}
-Total: R$ ${total}`);
+Total: R$ ${total}
+
+Nome: ${nome}
+Endereço: ${endereco}`)
+
 
     window.open(`https://wa.me/55999999999?text=${msg}`,'_blank');
-
+    
 }
