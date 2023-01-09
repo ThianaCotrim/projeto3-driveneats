@@ -54,13 +54,13 @@ function selecionarOpcaoSobre(opcaoClicada) {
 
 function whatsapp() {
 
-    let total = (valorPrato + valorBebida + valorSobremesa).toFixed (2);
+    const total = (valorPrato + valorBebida + valorSobremesa).toFixed (2);
     
-    let msg = encodeURIComponent(`Olá, gostaria de fazer o pedido:
+    const msg = encodeURIComponent(`Olá, gostaria de fazer o pedido:
 - Prato: ${nomePrato}
 - Bebida: ${nomeBebida}
 - Sobremesa: ${nomeSobremesa}
-Total: R$ ${total}`)
+Total: R$ ${total}`);
 
     window.open(`https://wa.me/55999999999?text=${msg}`,'_blank');
 
