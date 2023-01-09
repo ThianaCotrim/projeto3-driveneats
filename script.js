@@ -44,9 +44,9 @@ function selecionarOpcaoSobre(opcaoClicada) {
 
     if (document.querySelectorAll('.selecionado').length === 3) {
 
-        const mudar = document.querySelector('.cinza')
+        const mudar = document.querySelector('.cinza');
         mudar.innerHTML = "Fechar Pedido"
-        mudar.classList.add('verde')
+        mudar.classList.add('verde');
         mudar.removeAttribute("disabled");
     }
 
